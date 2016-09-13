@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var iansStyleGuide=function(){var i={};return i.init=function(){$(window).bind("create.xrayhtml",function(i){var t=!!~i.target.getAttribute("class").indexOf("prism");t&&"Prism"in window&&($(".prism").find("code").addClass("language-html"),Prism.highlightAll())})},i}();iansStyleGuide.init();
